@@ -39,7 +39,7 @@ jobs:
           pip install pytest httpx
       - name: Run automated unit tests
         working-directory: ./lab3
-        run: pytest -v
+        run: pytest test_main.py -v
 
   build_image:
     needs: test
