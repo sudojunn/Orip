@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../Computer Vision"
+		},
+		{
+			"path": "../../ураева"
+		},
+		{
+			"path": "../../verstka"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Computer Vision"
+	}
+}

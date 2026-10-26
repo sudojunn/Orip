@@ -1,0 +1,19 @@
+name: E2E MLOps Pipeline
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Placeholder line
+        run: echo "Starting lint stage"
+
+  test:
+    needs: lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Placeholder line
+        run: echo "Starting test stage"

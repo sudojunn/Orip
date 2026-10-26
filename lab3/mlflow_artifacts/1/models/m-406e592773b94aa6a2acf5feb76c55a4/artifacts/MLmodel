@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/Vladimir/Desktop/Orip KGU/mlflow_artifacts/1/models/m-406e592773b94aa6a2acf5feb76c55a4/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.12.1
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.16.0
+model_id: m-406e592773b94aa6a2acf5feb76c55a4
+model_size_bytes: 996938
+model_uuid: m-406e592773b94aa6a2acf5feb76c55a4
+prompts: null
+run_id: 0e452efb35de4b7395adc5b9fbb8a897
+utc_time_created: '2026-09-14 14:56:28.789735'
